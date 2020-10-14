@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivitiesCommunicationDemo</string>
+    <string name="data_got_from_master">Here will be data got from master</string>
+    <string name="type_an_answer">Type an answer…</string>
+    <string name="send">Send</string>
+    <string name="data_got_from_slave">Here will be data got from slave</string>
+    <string name="default_message_from">Couldn\'t get message from %1$s…</string>
+</resources>
