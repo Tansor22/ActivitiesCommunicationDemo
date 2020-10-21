@@ -36,7 +36,6 @@ public class MasterActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == MESSAGE_REQUEST_CODE) {
             if (resultCode == RESULT_OK) {
-                data = null;
                 String message = Optional.ofNullable(data)
                         .map(self -> self.getStringExtra(MESSAGE_KEY))
                         .orElse(getString(R.string.default_message_from, "slave"));
